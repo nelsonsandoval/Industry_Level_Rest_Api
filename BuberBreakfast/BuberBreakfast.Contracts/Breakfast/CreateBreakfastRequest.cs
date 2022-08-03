@@ -1,6 +1,6 @@
-namespace BuberBreakfast.Contracts.Breakfast
-{
-    public record CreatingBreakfastRequest(
+namespace BuberBreakfast.Contracts.Breakfast;
+
+    public record CreateBreakfastRequest(
         string Name,
         string Description,
         DateTime StartDateTime,
@@ -8,4 +8,3 @@ namespace BuberBreakfast.Contracts.Breakfast
         List<string> Savory,
         List<string> Sweet
     );
-}
