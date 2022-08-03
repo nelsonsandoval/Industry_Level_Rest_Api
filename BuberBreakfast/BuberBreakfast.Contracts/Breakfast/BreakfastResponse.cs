@@ -1,6 +1,6 @@
 namespace BuberBreakfast.Contracts.Breakfast;
 
-    public record CreatingBreakfastResponse(
+    public record BreakfastResponse(
         Guid Id,
         string Name,
         string Description,
