@@ -1,5 +1,5 @@
-namespace BuberBreakfast.Contracts.Breakfast
-{
+namespace BuberBreakfast.Contracts.Breakfast;
+
     public record CreatingBreakfastResponse(
         Guid Id,
         string Name,
@@ -10,4 +10,3 @@ namespace BuberBreakfast.Contracts.Breakfast
         List<string> Savory,
         List<string> Sweet
     );
-}
