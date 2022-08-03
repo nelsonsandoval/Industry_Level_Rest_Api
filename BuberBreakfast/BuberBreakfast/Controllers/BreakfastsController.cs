@@ -6,6 +6,10 @@ namespace BuberBreakfast.Controllers;
 [ApiController]
 public class BreakfastsController : ControllerBase
 {
+    [HttpPost("/breakfasts")]
+    public IActionResult CreateBreakFast(CreateBreakfastRequest request){
+        return Ok(request);
+    }
 
     [HttpGet("/breakfasts/{id:guid}")]
     public IActionResult GetBreakFast(Guid id)
